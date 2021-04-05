@@ -1,0 +1,44 @@
+{
+  "name": "swe-case-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "nodemon server.js",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaditya47/SWE-Case-Study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaditya47/SWE-Case-Study/issues"
+  },
+  "homepage": "https://github.com/aaditya47/SWE-Case-Study#readme",
+  "dependencies": {
+    "@fontsource/roboto": "^4.2.2",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
